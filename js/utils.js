@@ -12,3 +12,8 @@ function addPoem(){
 
   cont += 1;
 }
+
+
+function goGithub(){
+  location.href = "http://github.com/M3nin0/poemsWebsite";
+}

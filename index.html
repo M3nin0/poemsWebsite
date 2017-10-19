@@ -15,8 +15,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarUp">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Sobre<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#"> Ajudar </a>
+            <button class="btn btn-warning" onclick="addPoem();" >
+              Adicionar poema
+            </button>
+            &nbsp;
+            <button class="btn btn-warning">
+              Ajudar
+            </button>
+            &nbsp;
+            <button type="input" class="btn btn-warning" onclick="goGithub();" >
+              Sobre
+            </button>
           </div>
         </div>
       </nav>
@@ -36,9 +45,7 @@
 
     </section>
     <footer>
-      <button class="btn btn-primary" onclick="addPoem();" >
-        Adicionar outro poema
-      </button>
+
     </footer>
     <script type="text/javascript" src="js/utils.js" ></script>
   </body>
