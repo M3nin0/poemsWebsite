@@ -4,8 +4,8 @@
 
 header {
   width: 100%;
-  height: 190px;
-  background: #E4F1FE;
+  height: 220px;
+  background: #7D1424;
   position: relative;
 }
 
@@ -17,9 +17,14 @@ body, html {
 section {
   width: 100%;
   height: 500px;
-  background: #888888;
+  padding-top: 30px;
+  background: #FFFCE6;
 }
 
 .espace {
   padding-top: 40px;
+}
+
+.ajust {
+  padding-left: 15px;
 }

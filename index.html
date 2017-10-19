@@ -9,35 +9,36 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Lê Poemas</a>
+        <a class="navbar-brand" href="index.html">Lê Poemas</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarUp" aria-controls="navbarUp" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarUp">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Adicionar poemas<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#"> Sobre </a>
+            <a class="nav-item nav-link active" href="#">Sobre<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#"> Ajudar </a>
           </div>
         </div>
       </nav>
       <div>
-        <img src="img/logo2.png" class="img-fluid" id="logo" alt="Logo">
+        <img src="img/logo2.png" class="img-fluid ajust" id="logo" alt="Logo">
       </div>
     </header>
     <section>
       <br>
-      <div class="container-fluid espace">
+      <div id="1" class="container-fluid espace">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut mi condimentum, eleifend ligula a, suscipit urna. Etiam sodales neque quam, id varius lorem tincidunt ac. In a risus maximus, tristique sem ut, dapibus odio. Proin a justo nec orci lacinia tincidunt in non urna. Aenean eu libero neque. In id leo fringilla, accumsan diam et, tristique velit. Nam mollis neque velit, a viverra est laoreet vel. Duis fringilla purus ac ex fermentum, non cursus lorem posuere. Aliquam laoreet nulla ut mi mollis, in dapibus leo placerat. Proin nec viverra turpis. Donec molestie quis ante a mattis. Nam et imperdiet lorem, quis facilisis mauris. Fusce nec turpis eros. Fusce blandit quam ligula, nec molestie diam egestas et.
       </div>
 
-      <div class="container-fluid espace">
+      <div id="2" class="container-fluid espace">
         Ut euismod quam nulla, nec rhoncus nisi sollicitudin nec. Aenean in risus in magna mollis pulvinar quis vel metus. Sed ultricies ligula semper ante accumsan, quis lobortis lacus posuere. Aenean euismod in sem a interdum. Cras felis libero, iaculis eget nunc at, viverra ornare nibh. Donec ac diam lacus. Maecenas porttitor blandit nisl, ut finibus ipsum laoreet vitae. Integer at ex placerat, aliquet metus id, vulputate est.
       </div>
 
     </section>
     <footer>
-
+      <button class="btn btn-primary" onclick="addPoem();" >
+        Adicionar outro poema
+      </button>
     </footer>
     <script type="text/javascript" src="js/utils.js" ></script>
   </body>
